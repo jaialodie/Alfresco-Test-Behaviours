@@ -13,12 +13,14 @@
             <list>
                 <value>alfresco/module/${project.artifactId}/model/content-model.xml</value>
                 <value>alfresco/module/${project.artifactId}/model/workflow-model.xml</value>
+                <value>alfresco/module/${project.artifactId}/model/scRatingsModel.xml</value>
             </list>
         </property>
         <property name="labels">
             <list>
                 <!-- Bootstrap Resource Bundles for the content model types, aspects, properties etc -->
                 <value>alfresco/module/${project.artifactId}/messages/content-model</value>
+                <value>alfresco/module/${project.artifactId}/messages/scRatingsModel</value>
             </list>
         </property>
     </bean>
