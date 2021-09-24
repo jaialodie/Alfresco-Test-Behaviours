@@ -23,4 +23,13 @@
       </property>
    </bean>
 
+   <!-- Add Someco messages -->
+   <bean id="com.someco.behavior-tutorial-share.resources" class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
+      <property name="resourceBundles">
+         <list>
+            <value>alfresco.web-extension.messages.scRatingsModel</value>
+         </list>
+      </property>
+   </bean>
+
 </beans>
