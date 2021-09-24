@@ -39,6 +39,7 @@
     <bean id="org.alfresco.university.autoVersioningBehaviour" class="org.alfresco.university.platformsample.autoVersionByNameBehaviour" init-method="init" >
         <property name="policyComponent" ref="policyComponent" />
         <property name="nodeService" ref="NodeService" />
+        <property name="contentService" ref="ContentService" />
     </bean>
 
 
