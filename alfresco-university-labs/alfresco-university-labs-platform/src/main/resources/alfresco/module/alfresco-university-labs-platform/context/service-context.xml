@@ -36,7 +36,7 @@
         <property name="nodeService" ref="NodeService" />
         <property name="nodeLocatorService" ref="nodeLocatorService" />
     </bean>
-    <bean id="ratingBehavior" class="com.someco.behavior.Rating"
+    <bean id="org.alfresco.university.Rating" class="org.alfresco.university.Rating"
           init-method="init">
         <property name="nodeService">
             <ref bean="NodeService" />
