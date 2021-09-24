@@ -38,12 +38,8 @@
     </bean>
     <bean id="org.alfresco.university.Rating" class="org.alfresco.university.Rating"
           init-method="init">
-        <property name="nodeService">
-            <ref bean="NodeService" />
-        </property>
-        <property name="policyComponent">
-            <ref bean="policyComponent" />
-        </property>
+        <property name="nodeService" ref="NodeService" />
+        <property name="policyComponent" ref="policyComponent" />
     </bean>
 
 
