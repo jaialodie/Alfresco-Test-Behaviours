@@ -36,6 +36,15 @@
         <property name="nodeService" ref="NodeService" />
         <property name="nodeLocatorService" ref="nodeLocatorService" />
     </bean>
+    <bean id="ratingBehavior" class="com.someco.behavior.Rating"
+          init-method="init">
+        <property name="nodeService">
+            <ref bean="NodeService" />
+        </property>
+        <property name="policyComponent">
+            <ref bean="policyComponent" />
+        </property>
+    </bean>
 
 
 </beans>
